@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.00" multi-file="no" uid="simp348fd836d60247918f970f53b85c7eba" creation-date="12/28/2023 08:17:33">
+  <meta>
+    <name />
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="erd-entity" type="Entity" />
+        <value>6</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="erd-entity" type="Entity" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-relationship" type="Relationship" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Erd.ErdEntityAttribute</type>
+        <value>39</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-990658da7b984abdae2b8808bf2b8f98" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-9b2cd3ae067648619c2d96b279407dd8" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="number" name="number" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="91a70665bf11463abc7ea69264d043b4" cid="ENT001" type="erd-entity" name="Admin" creation-date="12/28/2023 08:18:52">
+      <entity description="" />
+      <attributes>
+        <attribute uid="671f6bbbad2e4df3a3370d14ed60485b" cid="EA001" name="Id" type="" type-id="" primary-key="true" nullable="false" creation-date="12/28/2023 08:34:20" />
+        <attribute uid="70719f1335aa475e8308e832f5d61e72" cid="EA002" name="username" type="" type-id="" nullable="false" creation-date="12/28/2023 08:34:27" />
+        <attribute uid="80b14e052b3b4f929608abfe93b2d98d" cid="EA003" name="email" type="String" type-id="Uml.String" nullable="false" creation-date="12/28/2023 09:22:43" />
+        <attribute uid="a5ac825904724eba855e454c09df0597" cid="EA004" name="password" type="" type-id="" nullable="false" creation-date="12/28/2023 09:22:48" />
+        <attribute uid="825db20ae37d4d40bfd0b72de119e642" cid="EA005" name="roles" type="" type-id="" nullable="false" creation-date="12/28/2023 09:23:00" />
+        <attribute uid="089d0db2b48e42e6bd3c32ae499108a6" cid="EA006" name="questionsPostAnswered" type="" type-id="" nullable="false" creation-date="12/28/2023 09:23:25" />
+        <attribute uid="029dd30f80164e2fa304e2cac2a3c35e" cid="EA007" name="questionsCreated" type="" type-id="" foreign-key="true" nullable="false" creation-date="12/28/2023 09:23:40" />
+        <attribute uid="33c98711f9ac49bc94d61c4aeecc209f" cid="EA008" name="joinedDate" type="" type-id="" nullable="false" creation-date="12/28/2023 09:24:15" />
+        <attribute uid="afee60e30ada4a79ab2c93983b8632c0" cid="EA011" name="firstname" type="" type-id="" nullable="false" creation-date="12/28/2023 09:25:50" />
+        <attribute uid="568f454769634d0b89881f4ad5a090c9" cid="EA012" name="lastname" type="" type-id="" nullable="false" creation-date="12/28/2023 09:26:09" />
+        <attribute uid="2c4588329d0345a386f7df36e4df780f" cid="EA013" name="gender" type="" type-id="" nullable="false" creation-date="12/28/2023 09:26:15" />
+        <attribute uid="a8ee2bb12c5014bda80ff7ec0a8a18489573" cid="EA014" name="questionsVerified" type="" type-id="" nullable="false" creation-date="12/28/2023 09:29:21" />
+      </attributes>
+      <indexes />
+    </item>
+  </items>
+  <models>
+    <model id="pdfe8764d6c414045842cf921a75b6390_741140828" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>12/28/2023 08:18:27</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="entity-relationship" id="p26727441561d4322a2828d2823833410_969050724" name="EntityRelationshipDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="-19,-52">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/28/2023 08:18:27</creation-date>
+          <change-date>12/28/2023 09:43:00</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="79fb765d53e1473da9ebb79eaf5c6c93" cid="REL007" type="erd-relationship" name="Answer" creator="" creation-date="12/28/2023 08:23:52" from="91a70665bf11463abc7ea69264d043b4" to="55c1b8723e3e411783aee3b09ba16e59">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="a5ac825904724eba855e454c09df0597" to-attribute="ac4701a99386843d4a99262ef659605d9599" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="b02f44a24ea346a5b8abea529e1b7583" cid="ENT001" type="erd-entity" name="Student" creator="" creation-date="12/28/2023 08:18:52">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a1a4c8f9f46964e21a98fb46e6b19b366596" cid="EA001" name="Id" type="" type-id="" primary-key="true" nullable="false" creation-date="12/28/2023 08:34:20" />
+              <attribute uid="a293a6ea115d54de3bffb7fc9108daffb935" cid="EA002" name="username" type="" type-id="" nullable="false" creation-date="12/28/2023 08:34:27" />
+              <attribute uid="ab7943da914824e53972f496c3cc3282f911" cid="EA003" name="email" type="" type-id="" nullable="false" creation-date="12/28/2023 09:22:43" />
+              <attribute uid="a1295d64d459649daa67a718d8be8c6bc362" cid="EA004" name="password" type="" type-id="" nullable="false" creation-date="12/28/2023 09:22:48" />
+              <attribute uid="afd54ecac86e74d9f9e08beafca79e1cd795" cid="EA005" name="roles" type="" type-id="" nullable="false" creation-date="12/28/2023 09:23:00" />
+              <attribute uid="a2606768eeb634ec0b5df31df4ef64f78277" cid="EA006" name="questionsAnswered" type="" type-id="" nullable="false" creation-date="12/28/2023 09:23:25" />
+              <attribute uid="ae7a8369b8b7f4502a971f8ac18664a41144" cid="EA007" name="questionsPosted" type="" type-id="" foreign-key="true" nullable="false" creation-date="12/28/2023 09:23:40" />
+              <attribute uid="a860149104fed4f178b86f0eadc469259560" cid="EA008" name="joinedDate" type="" type-id="" nullable="false" creation-date="12/28/2023 09:24:15" />
+              <attribute uid="a5267431dc778407fba39e5f345df71b3878" cid="EA009" name="grade" type="" type-id="" nullable="false" creation-date="12/28/2023 09:24:19" />
+              <attribute uid="aa5df14822b5c4decb89abf7743573d62197" cid="EA010" name="school" type="" type-id="" nullable="false" creation-date="12/28/2023 09:24:24" />
+              <attribute uid="a9b673527dedf4d94b5552d4d216ea94c318" cid="EA011" name="firstname" type="" type-id="" nullable="false" creation-date="12/28/2023 09:25:50" />
+              <attribute uid="abb064a30390a4b9ab2f580ce3e398d40906" cid="EA012" name="lastname" type="" type-id="" nullable="false" creation-date="12/28/2023 09:26:09" />
+              <attribute uid="a95b9426056da43be819885f0e716ed24222" cid="EA013" name="gender" type="" type-id="" nullable="false" creation-date="12/28/2023 09:26:15" />
+            </attributes>
+            <indexes />
+          </item>
+          <item id="a4b41f5b59584454a4213522f2b6d0e5" cid="ENT005" type="erd-entity" name="Question" creator="" creation-date="12/28/2023 08:20:36">
+            <entity description="" />
+            <attributes>
+              <attribute uid="aecec09c4269044a7a4aff2baf33185b3474" cid="EA030" name="id" type="" type-id="" primary-key="true" nullable="false" creation-date="12/28/2023 10:02:21" />
+              <attribute uid="a71a24e2fde864d308c4190b80b42e418654" cid="EA031" name="adminId" type="" type-id="" foreign-key="true" nullable="false" creation-date="12/28/2023 10:04:43" />
+              <attribute uid="a55d60dfb465442b7b62994278c818cc9486" cid="EA032" name="dateCreated" type="" type-id="" nullable="false" creation-date="12/28/2023 10:02:40" />
+              <attribute uid="a2560f2b45e9c42dab5313c4692d12c96664" cid="EA033" name="description" type="" type-id="" nullable="false" creation-date="12/28/2023 10:02:56" />
+              <attribute uid="ab6b4fe36d30146fca9fd3eb5fdd383ea870" cid="EA034" name="hasImage" type="" type-id="" nullable="false" creation-date="12/28/2023 10:03:04" />
+              <attribute uid="a5abbf48c904d43f79839580a704ce2de115" cid="EA035" name="imageLinks" type="" type-id="" nullable="false" creation-date="12/28/2023 10:03:10" />
+              <attribute uid="ad1aedb8f1571408a8f42571d35dc716b642" cid="EA036" name="options" type="" type-id="" nullable="false" creation-date="12/28/2023 10:03:24" />
+              <attribute uid="a443a0d628f9246e78aaa827cbb9d3665348" cid="EA037" name="rightAnswerIndex" type="" type-id="" nullable="false" creation-date="12/28/2023 10:03:54" />
+              <attribute uid="a9d90124e3203422f852abd36273eea51897" cid="EA038" name="explaination" type="" type-id="" nullable="false" creation-date="12/28/2023 10:04:13" />
+            </attributes>
+            <indexes />
+          </item>
+          <item id="0a283797d91241c2b9fcbb022e9d8652" cid="REL009" type="erd-relationship" creator="" creation-date="12/28/2023 08:52:27">
+            <erd-relation type="Identifying" multiplicity-from="1..*" multiplicity-to="1..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="5c59964a4d8049c59af2e3ac54be2219" cid="REL006" type="erd-relationship" name="creates" creator="" creation-date="12/28/2023 08:22:55" from="91a70665bf11463abc7ea69264d043b4" to="a4b41f5b59584454a4213522f2b6d0e5">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="6bbf5de443e4484a9c4acd1e4564cb1f" cid="REL008" type="erd-relationship" name="has many answers" creator="" creation-date="12/28/2023 08:25:20" from="fd8b7d3feb234fb79b9f6c303dd9a2ff" to="55c1b8723e3e411783aee3b09ba16e59">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="01f9b67cebe44041a1d0af8ff878059a" cid="REL005" type="erd-relationship" name="create many questions" creator="" creation-date="12/28/2023 08:21:40" from="b02f44a24ea346a5b8abea529e1b7583" to="fd8b7d3feb234fb79b9f6c303dd9a2ff">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="d12f2e23705b4b45ac222a877f9d6ec9" cid="REL010" type="erd-relationship" creator="" creation-date="12/28/2023 09:41:22" from="fd8b7d3feb234fb79b9f6c303dd9a2ff">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="1">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="fd8b7d3feb234fb79b9f6c303dd9a2ff" cid="ENT003" type="erd-entity" name="StudentQuestion" creator="" creation-date="12/28/2023 08:19:25">
+            <entity description="" />
+            <attributes>
+              <attribute uid="add9c5c82b0964b78a6381a53e5dfd81f922" cid="EA015" name="id" type="number" type-id="number" primary-key="true" nullable="false" creation-date="12/28/2023 09:40:19" />
+              <attribute uid="a93dc11b84fe940dd9508fd35e728a832400" cid="EA016" name="studentId" type="number" type-id="number" nullable="false" creation-date="12/28/2023 09:38:19" />
+              <attribute uid="ad5682516a462495499c61e5f9763202f95" cid="EA017" name="description" type="String" type-id="Uml.String" nullable="false" creation-date="12/28/2023 09:38:32" />
+              <attribute uid="a5cf647df42c54e7f94c04e4c5834b328124" cid="EA018" name="questionHasImage" type="Boolean" type-id="Uml.Boolean" nullable="false" creation-date="12/28/2023 09:38:54" />
+              <attribute uid="a1615ad02c53f41c38bb57290febc1966547" cid="EA019" name="imageLinks" type="String" type-id="Uml.String" nullable="false" creation-date="12/28/2023 09:39:07" />
+              <attribute uid="adbc267f9ccc146f68f82f0e92f78cc6e940" cid="EA020" name="dateCreated" type="DateTime" type-id="Uml.DateTime" nullable="false" creation-date="12/28/2023 09:39:11" />
+              <attribute uid="a827ab21a10f447e5bdf12a2a186602bd951" cid="EA021" name="questionAnswerd" type="Boolean" type-id="Uml.Boolean" nullable="false" creation-date="12/28/2023 09:39:40" />
+              <attribute uid="a0b5dd3b6c9b14966b63f94c2e2b427cc409" cid="EA022" name="questionAnswers" type="" type-id="" nullable="false" creation-date="12/28/2023 09:39:57" />
+            </attributes>
+            <indexes />
+          </item>
+          <item id="55c1b8723e3e411783aee3b09ba16e59" cid="ENT004" type="erd-entity" name="Answer" creator="" creation-date="12/28/2023 08:19:46">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a76f3818f81dd498f9caa5a5e9c36c068929" cid="EA023" name="id" type="AnyInteger" type-id="Uml.AnyInteger" primary-key="true" nullable="false" creation-date="12/28/2023 09:46:27" />
+              <attribute uid="a3c8283c0f86b408ab11cbc89f7f36d21886" cid="EA024" name="adminId" type="AnyInteger" type-id="Uml.AnyInteger" nullable="false" creation-date="12/28/2023 09:44:46" />
+              <attribute uid="ac4701a99386843d4a99262ef659605d9599" cid="EA025" name="dateAnswered" type="DateTime" type-id="Uml.DateTime" nullable="false" creation-date="12/28/2023 09:44:53" />
+              <attribute uid="aa31e690dd7034e47920df152300fa4cc584" cid="EA026" name="reactions" type="Object" type-id="Uml.Object" nullable="false" creation-date="12/28/2023 09:45:38" />
+              <attribute uid="a7b2eb55f84d44c5fba235ac61ddf8d31629" cid="EA027" name="answerDescription" type="String" type-id="Uml.String" nullable="false" creation-date="12/28/2023 09:45:54" />
+              <attribute uid="a6f0374b5cf3d48bfa254e6bbd6491767143" cid="EA028" name="answerHasImage" type="Boolean" type-id="Uml.Boolean" nullable="false" creation-date="12/28/2023 09:46:17" />
+              <attribute uid="ab28c6907dfca4c4792e811a79a14b5db612" cid="EA029" name="imageLinks" type="Object" type-id="Uml.Object" nullable="false" creation-date="12/28/2023 09:46:21" />
+            </attributes>
+            <indexes />
+          </item>
+          <item id="b9735356e71e4acfa324d6f49a0ed8a2" cid="ENT002" type="erd-entity" name="Admin" creator="" creation-date="12/28/2023 08:19:04">
+            <entity description="" />
+            <attributes />
+            <indexes />
+          </item>
+        </abstract-items>
+        <layer id="90184032135342fe96d1dedab175492a" name="Default" visible="true" enabled="true" locked="false">
+          <item id="b02f44a24ea346a5b8abea529e1b7583" iid="82e82e10207c4f19a3fe26586b74b4cf" creation-date="12/28/2023 08:18:52" order-index="0" type="entity">
+            <layout ax="30" ay="49" awidth="210" aheight="294" x="30" y="49" width="210" height="292" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="fd8b7d3feb234fb79b9f6c303dd9a2ff" iid="f85d1dc9594448c2b607248df27c035a" creation-date="12/28/2023 08:19:25" order-index="2" type="entity">
+            <layout ax="678" ay="26" awidth="245" aheight="199" x="678" y="26" width="140" height="199" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="55c1b8723e3e411783aee3b09ba16e59" iid="6ce7ba7375ce4d1caec307ea4a7f8b04" creation-date="12/28/2023 08:19:46" order-index="3" type="entity">
+            <layout ax="683" ay="408" awidth="235" aheight="180" x="683" y="408" width="140" height="180" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="a4b41f5b59584454a4213522f2b6d0e5" iid="4b5737a83cf64a3586fe5f1b700f339e" creation-date="12/28/2023 08:20:36" order-index="4" type="entity">
+            <layout ax="701.5" ay="621" awidth="198" aheight="218" x="701.5" y="621" width="140" height="160" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="01f9b67cebe44041a1d0af8ff878059a" iid="ea3bda7a5cd14eb6901346ca5bee6836" creation-date="12/28/2023 08:21:40" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="240" y1="158" x2="678" y2="159" start-border-pos="0.34268707782030106" end-border-pos="0.8328125" start-local-pos="109" end-local-pos="107" name-position="-18,29">
+              <points>
+                <point x="240" y="158" />
+                <point x="678" y="159" />
+              </points>
+            </layout>
+            <relation from="b02f44a24ea346a5b8abea529e1b7583" from-iid="82e82e10207c4f19a3fe26586b74b4cf" to="fd8b7d3feb234fb79b9f6c303dd9a2ff" to-iid="f85d1dc9594448c2b607248df27c035a" />
+          </item>
+          <item id="5c59964a4d8049c59af2e3ac54be2219" iid="51f6aecad7944fffa6fd7f9da4556fc0" creation-date="12/28/2023 08:22:55" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="240" y1="682" x2="702" y2="684" start-border-pos="0.47683705389499664" end-border-pos="0.927752286195755" start-local-pos="284" end-local-pos="63" name-position="29,21">
+              <points>
+                <point x="240" y="682" />
+                <point x="702" y="684" />
+              </points>
+            </layout>
+            <relation from="91a70665bf11463abc7ea69264d043b4" from-iid="b730e5c5ce944931b8b42f50d03d7c5c" to="a4b41f5b59584454a4213522f2b6d0e5" to-iid="4b5737a83cf64a3586fe5f1b700f339e" />
+          </item>
+          <item id="79fb765d53e1473da9ebb79eaf5c6c93" iid="74247e665e90443f8ef31656c94dc5f1" creation-date="12/28/2023 08:23:52" order-index="7" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="240" y1="494" x2="683" y2="498" start-border-pos="0.3265306130051613" end-border-pos="0.875" start-local-pos="90" end-local-pos="90" name-position="0,20">
+              <points>
+                <point x="240" y="494" />
+                <point x="683" y="498" />
+              </points>
+            </layout>
+            <relation from="91a70665bf11463abc7ea69264d043b4" from-iid="b730e5c5ce944931b8b42f50d03d7c5c" from-field="a5ac825904724eba855e454c09df0597" to="55c1b8723e3e411783aee3b09ba16e59" to-iid="6ce7ba7375ce4d1caec307ea4a7f8b04" to-field="ac4701a99386843d4a99262ef659605d9599" />
+          </item>
+          <item id="6bbf5de443e4484a9c4acd1e4564cb1f" iid="acf46c94f1bc49878f924552ad731e0d" creation-date="12/28/2023 08:25:20" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="26,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="800" y1="225" x2="800" y2="408" start-border-pos="0.625" end-border-pos="0.12446808815002441" start-local-pos="70" end-local-pos="117" name-position="-87,10">
+              <points>
+                <point x="800" y="225" />
+                <point x="800" y="408" />
+              </points>
+            </layout>
+            <relation from="fd8b7d3feb234fb79b9f6c303dd9a2ff" from-iid="f85d1dc9594448c2b607248df27c035a" to="55c1b8723e3e411783aee3b09ba16e59" to-iid="6ce7ba7375ce4d1caec307ea4a7f8b04" />
+          </item>
+          <item id="91a70665bf11463abc7ea69264d043b4" iid="b730e5c5ce944931b8b42f50d03d7c5c" creation-date="12/28/2023 08:18:52" order-index="0" type="entity">
+            <layout ax="30" ay="398" awidth="210" aheight="313" x="30" y="398" width="210" height="313" />
+            <erd-entity show-nullability="true" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
